@@ -1,0 +1,46 @@
+# mysql
+spring:
+  application:
+    name: mymall-product
+  datasource:
+    #MySQL配置
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.3.142:3307/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: chan
+  cloud:
+    nacos:
+      discovery:
+        # nacos-server地址配置
+        server-addr: 127.0.0.1:8848
+    # alibaba oss配置
+    alicloud:
+      access-key: LTAI5t5pwPxgG54EnhrDtcFE
+      secret-key: hpJ2m27ty2zOgsOrQb9lHXINNxEggL
+      oss:
+        endpoint: oss-cn-guangzhou.aliyuncs.com
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  # thymeleaf配置
+  thymeleaf:
+    cache: false
+  redis:
+    host: 192.168.3.142
+    port: 6379
+
+# 配置mp sql映射文件位置
+mybatis-plus:
+  mapper-locations:
+    - classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+      # 逻辑删除相关配置
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+logging:
+  level:
+    com.hzc: debug
+
+server:
+  port: 10000

@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        # nacos-server地址配置
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5t5pwPxgG54EnhrDtcFE
+      secret-key: hpJ2m27ty2zOgsOrQb9lHXINNxEggL
+      oss:
+        endpoint: oss-cn-guangzhou.aliyuncs.com
+        bucket: mymalll
+server:
+  port: 30000
+

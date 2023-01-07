@@ -1,0 +1,7 @@
+2023-01-05 14:52:59,908|192.168.3.32|mymall-gateway.properties|DEFAULT_GROUP|816db6c0-74df-463a-b85b-40a0a5210f5b|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-01-05 14:54:00,054|192.168.3.32|oss.yml|DEFAULT_GROUP|36f2f9c2-384d-434a-8c86-0bffe4f99551|unknown|1672315577023|pull|ok|586063031|127.0.0.1
+2023-01-05 14:54:00,055|192.168.3.32|mymall-third-party.properties|DEFAULT_GROUP|36f2f9c2-384d-434a-8c86-0bffe4f99551|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-01-05 14:59:09,417|192.168.3.32|oss.yml|DEFAULT_GROUP|36f2f9c2-384d-434a-8c86-0bffe4f99551|unknown|1672315577023|pull|ok|586372394|127.0.0.1
+2023-01-05 14:59:09,423|192.168.3.32|mymall-third-party.properties|DEFAULT_GROUP|36f2f9c2-384d-434a-8c86-0bffe4f99551|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-01-05 20:28:00,449|192.168.3.32|mymall-product.properties|DEFAULT_GROUP|80de6281-989d-47bb-be02-5bafa00a1261|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-01-05 20:44:40,111|192.168.3.32|mymall-product.properties|DEFAULT_GROUP|80de6281-989d-47bb-be02-5bafa00a1261|unknown|-1|pull|not-found|-1|127.0.0.1

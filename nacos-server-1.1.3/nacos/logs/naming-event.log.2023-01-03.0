@@ -1,0 +1,94 @@
+2023-01-03 00:52:33,161 INFO DEFAULT_GROUP@@mymall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 00:52:33,164 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-gateway, ips: 192.168.3.141:88_true,
+
+2023-01-03 00:52:33,164 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-gateway, ips: 192.168.3.141:88_true,
+
+2023-01-03 00:53:08,714 INFO DEFAULT_GROUP@@mymall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 00:53:08,714 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 00:53:08,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 00:54:42,635 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 00:54:42,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.3.141:8080_true,
+
+2023-01-03 00:54:42,636 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.3.141:8080_true,
+
+2023-01-03 16:01:34,975 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 16:01:34,979 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.3.141:8080_true,
+
+2023-01-03 16:01:51,653 INFO DEFAULT_GROUP@@mymall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 16:01:51,653 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-gateway, ips: 192.168.3.141:88_true,
+
+2023-01-03 16:01:51,654 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-gateway, ips: 192.168.3.141:88_true,
+
+2023-01-03 16:02:29,304 INFO DEFAULT_GROUP@@mymall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 16:02:29,304 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 16:02:29,305 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 16:04:36,787 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 16:26:59,829 INFO DEFAULT_GROUP@@mymall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.141:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 16:26:59,829 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 
+
+2023-01-03 17:04:35,309 INFO DEFAULT_GROUP@@mymall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 17:04:35,309 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 17:04:35,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 17:07:15,527 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 17:19:11,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 17:45:13,573 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 17:50:38,914 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 18:03:14,394 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 18:03:46,928 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 19:46:40,404 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 19:56:51,376 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 21:35:54,729 INFO {POS} {IP-DISABLED} valid: 192.168.3.141:10000@DEFAULT@DEFAULT_GROUP@@mymall-product, region: unknown, msg: client timeout after 15000, last beat: 1672752938317
+
+2023-01-03 21:35:54,969 INFO service: DEFAULT_GROUP@@mymall-product {POS} {IP-ENABLED} valid: 192.168.3.141:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2023-01-03 21:35:54,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 21:49:03,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 22:08:40,709 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 22:24:19,409 INFO {POS} {IP-DISABLED} valid: 192.168.3.141:10000@DEFAULT@DEFAULT_GROUP@@mymall-product, region: unknown, msg: client timeout after 15000, last beat: 1672755842589
+
+2023-01-03 22:24:34,583 INFO DEFAULT_GROUP@@mymall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.141:10000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-01-03 22:24:34,583 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 
+
+2023-01-03 22:25:48,817 INFO DEFAULT_GROUP@@mymall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.141:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-03 22:25:48,817 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 22:25:48,821 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 22:32:50,999 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 22:40:29,470 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 22:43:26,278 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 22:45:20,693 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+
+2023-01-03 23:02:42,941 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mymall-product, ips: 192.168.3.141:10000_true,
+

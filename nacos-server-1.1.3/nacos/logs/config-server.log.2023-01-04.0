@@ -1,0 +1,126 @@
+2023-01-04 16:49:27,204 INFO notifyConnectTimeout:200
+
+2023-01-04 16:49:27,205 INFO notifySocketTimeout:8000
+
+2023-01-04 16:49:27,205 INFO isHealthCheck:true
+
+2023-01-04 16:49:27,205 INFO maxHealthCheckFailCount:12
+
+2023-01-04 16:49:27,205 INFO maxContent:10485760
+
+2023-01-04 16:49:27,636 INFO Schema 'NACOS' already exists.
+
+2023-01-04 16:49:27,680 INFO Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,730 INFO Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,749 INFO Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,760 INFO Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,772 INFO Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,785 INFO Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,796 INFO Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,808 INFO Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,818 INFO Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,835 INFO Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,846 INFO Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,856 INFO Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,872 INFO Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,883 INFO Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2023-01-04 16:49:27,944 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL221228164603850' defined on 'USERS'.
+
+2023-01-04 16:49:28,206 INFO ServerListService address-server port:8848
+
+2023-01-04 16:49:28,207 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2023-01-04 16:49:28,208 WARN [serverlist] updated to [192.168.3.32]
+
+2023-01-04 16:49:28,268 WARN DumpService start
+
+2023-01-04 16:49:28,270 INFO start clear all config-info.
+
+2023-01-04 16:49:28,274 WARN clear all config-info failed.
+
+2023-01-04 16:49:28,274 WARN clear all config-info-tenant failed.
+
+2023-01-04 16:49:28,377 INFO [all-dump] 10 / 10
+
+2023-01-04 16:49:28,377 INFO start clear all config-info-beta.
+
+2023-01-04 16:49:28,377 WARN clear all config-info-beta failed.
+
+2023-01-04 16:49:28,377 WARN clear all config-info-beta-tenant failed.
+
+2023-01-04 16:49:28,399 INFO start clear all config-info-tag.
+
+2023-01-04 16:49:28,400 WARN clear all config-info-tag failed.
+
+2023-01-04 16:49:28,400 WARN clear all config-info-tag-tenant failed.
+
+2023-01-04 20:40:08,742 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:13
+
+2023-01-04 20:40:13,756 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:14
+
+2023-01-04 20:40:18,746 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:15
+
+2023-01-04 20:40:23,769 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:16
+
+2023-01-04 20:40:28,782 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:17
+
+2023-01-04 20:40:33,795 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:18
+
+2023-01-04 20:40:38,808 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:19
+
+2023-01-04 20:40:43,797 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:20
+
+2023-01-04 20:40:48,811 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:21
+
+2023-01-04 20:40:53,822 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:22
+
+2023-01-04 20:40:58,824 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:23
+
+2023-01-04 20:41:03,825 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:24
+
+2023-01-04 20:41:08,826 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:25
+
+2023-01-04 20:41:13,823 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:26
+
+2023-01-04 20:41:18,830 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:27
+
+2023-01-04 20:41:23,843 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:28
+
+2023-01-04 20:41:28,873 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:29
+
+2023-01-04 20:41:33,878 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:30
+
+2023-01-04 20:41:38,872 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:31
+
+2023-01-04 20:41:43,900 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:32
+
+2023-01-04 20:41:48,910 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:33
+
+2023-01-04 20:41:53,924 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:34
+
+2023-01-04 20:41:58,934 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:35
+
+2023-01-04 20:42:03,942 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:36
+
+2023-01-04 20:42:08,956 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:37
+
+2023-01-04 20:42:13,962 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:38
+
+2023-01-04 20:42:18,967 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:39
+
+2023-01-04 20:42:23,975 ERROR unhealthIp:192.168.3.32:8848, unhealthCount:40
+

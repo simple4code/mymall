@@ -1,0 +1,116 @@
+2023-01-04 16:49:32,221 INFO DEFAULT_GROUP@@mymall-gateway is changed, add it to push queue.
+
+2023-01-04 16:50:59,728 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 17:04:59,459 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 17:04:59,459 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,11798513392700
+
+2023-01-04 17:04:59,459 INFO send udp packet: 192.168.110.1,58591,11798513392700
+
+2023-01-04 17:04:59,467 INFO received ack: {"type": "push-ack", "lastRefTime":"11798513392700", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 8, total push: 0
+
+2023-01-04 18:56:52,336 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 18:56:52,336 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,18511389760100
+
+2023-01-04 18:56:52,336 INFO send udp packet: 192.168.110.1,58591,18511389760100
+
+2023-01-04 18:56:52,341 INFO received ack: {"type": "push-ack", "lastRefTime":"18511389760100", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 5, total push: 0
+
+2023-01-04 19:58:31,966 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 19:58:31,967 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,22211020066200
+
+2023-01-04 19:58:31,967 INFO send udp packet: 192.168.110.1,58591,22211020066200
+
+2023-01-04 19:58:31,975 INFO received ack: {"type": "push-ack", "lastRefTime":"22211020066200", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 8, total push: 0
+
+2023-01-04 20:06:44,108 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 20:06:44,108 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,22703161622900
+
+2023-01-04 20:06:44,108 INFO send udp packet: 192.168.110.1,58591,22703161622900
+
+2023-01-04 20:06:44,109 INFO received ack: {"type": "push-ack", "lastRefTime":"22703161622900", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 1, total push: 0
+
+2023-01-04 20:08:40,242 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 20:08:40,243 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,22819296260900
+
+2023-01-04 20:08:40,243 INFO send udp packet: 192.168.110.1,58591,22819296260900
+
+2023-01-04 20:08:40,244 INFO received ack: {"type": "push-ack", "lastRefTime":"22819296260900", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 1, total push: 0
+
+2023-01-04 21:04:14,125 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 21:04:14,125 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,26153179206400
+
+2023-01-04 21:04:14,125 INFO send udp packet: 192.168.110.1,58591,26153179206400
+
+2023-01-04 21:04:14,127 INFO received ack: {"type": "push-ack", "lastRefTime":"26153179206400", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 2, total push: 0
+
+2023-01-04 22:10:32,967 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 22:10:32,967 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,30132020734000
+
+2023-01-04 22:10:32,967 INFO send udp packet: 192.168.110.1,58591,30132020734000
+
+2023-01-04 22:10:32,969 INFO received ack: {"type": "push-ack", "lastRefTime":"30132020734000", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 2, total push: 0
+
+2023-01-04 22:25:22,745 INFO DEFAULT_GROUP@@mymall-product is changed, add it to push queue.
+
+2023-01-04 22:25:22,745 INFO serviceName: DEFAULT_GROUP@@mymall-product changed, schedule push for: 192.168.110.1:58591, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,58591,31021799402900
+
+2023-01-04 22:25:22,745 INFO send udp packet: 192.168.110.1,58591,31021799402900
+
+2023-01-04 22:25:22,746 INFO received ack: {"type": "push-ack", "lastRefTime":"31021799402900", "data":""} from: 192.168.110.1:, cost: 58591 ms, unacked: 1, total push: 0
+
+2023-01-04 22:36:10,387 INFO DEFAULT_GROUP@@mymall-auth-server is changed, add it to push queue.
+
+2023-01-04 22:46:44,931 INFO DEFAULT_GROUP@@mymall-auth-server is changed, add it to push queue.
+
+2023-01-04 22:49:24,368 INFO DEFAULT_GROUP@@mymall-gateway is changed, add it to push queue.
+
+2023-01-04 22:49:35,417 INFO DEFAULT_GROUP@@mymall-gateway is changed, add it to push queue.
+
+2023-01-04 22:50:22,053 INFO DEFAULT_GROUP@@mymall-auth-server is changed, add it to push queue.
+
+2023-01-04 22:50:22,053 INFO serviceName: DEFAULT_GROUP@@mymall-auth-server changed, schedule push for: 192.168.110.1:52374, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,52374,32521106500500
+
+2023-01-04 22:50:22,053 INFO send udp packet: 192.168.110.1,52374,32521106500500
+
+2023-01-04 22:50:22,057 INFO received ack: {"type": "push-ack", "lastRefTime":"32521106500500", "data":""} from: 192.168.110.1:, cost: 52374 ms, unacked: 4, total push: 0
+
+2023-01-04 22:53:29,403 INFO DEFAULT_GROUP@@mymall-auth-server is changed, add it to push queue.
+
+2023-01-04 22:53:29,403 INFO serviceName: DEFAULT_GROUP@@mymall-auth-server changed, schedule push for: 192.168.110.1:52374, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,52374,32708457386200
+
+2023-01-04 22:53:29,403 INFO send udp packet: 192.168.110.1,52374,32708457386200
+
+2023-01-04 22:53:29,404 INFO received ack: {"type": "push-ack", "lastRefTime":"32708457386200", "data":""} from: 192.168.110.1:, cost: 52374 ms, unacked: 1, total push: 0
+
+2023-01-04 22:53:43,867 INFO DEFAULT_GROUP@@mymall-auth-server is changed, add it to push queue.
+
+2023-01-04 22:53:43,867 INFO serviceName: DEFAULT_GROUP@@mymall-auth-server changed, schedule push for: 192.168.110.1:52374, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,52374,32722920889900
+
+2023-01-04 22:53:43,867 INFO send udp packet: 192.168.110.1,52374,32722920889900
+
+2023-01-04 22:53:43,868 INFO received ack: {"type": "push-ack", "lastRefTime":"32722920889900", "data":""} from: 192.168.110.1:, cost: 52374 ms, unacked: 1, total push: 0
+
+2023-01-04 23:03:44,462 INFO DEFAULT_GROUP@@mymall-auth-server is changed, add it to push queue.
+
+2023-01-04 23:03:44,462 INFO serviceName: DEFAULT_GROUP@@mymall-auth-server changed, schedule push for: 192.168.110.1:52374, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,52374,33323515695399
+
+2023-01-04 23:03:44,462 INFO send udp packet: 192.168.110.1,52374,33323515695399
+
+2023-01-04 23:03:44,463 INFO received ack: {"type": "push-ack", "lastRefTime":"33323515695399", "data":""} from: 192.168.110.1:, cost: 52374 ms, unacked: 1, total push: 0
+
+2023-01-04 23:57:29,603 INFO DEFAULT_GROUP@@mymall-auth-server is changed, add it to push queue.
+
+2023-01-04 23:57:29,603 INFO serviceName: DEFAULT_GROUP@@mymall-auth-server changed, schedule push for: 192.168.110.1:52374, agent: Nacos-Java-Client:v1.1.1, key: 192.168.110.1,52374,36548657155800
+
+2023-01-04 23:57:29,603 INFO send udp packet: 192.168.110.1,52374,36548657155800
+
+2023-01-04 23:57:29,604 INFO received ack: {"type": "push-ack", "lastRefTime":"36548657155800", "data":""} from: 192.168.110.1:, cost: 52374 ms, unacked: 1, total push: 0
+

@@ -1,0 +1,7 @@
+spring:
+  # thymeleaf配置
+  thymeleaf:
+    cache: false
+  redis:
+    host: 192.168.3.142
+    port: 6379

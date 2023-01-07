@@ -15,6 +15,9 @@
 		<module>mymall-order</module>
 		<module>mymall-product</module>
 		<module>mymall-ware</module>
-	</modules>
+		<module>renren-fast-master</module>
+		<module>renren-generator-master</module>
+        <module>mymall-common</module>
+    </modules>
 
 </project>
