@@ -1,5 +1,6 @@
 package com.hzc.mymall.product.app;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -26,6 +27,13 @@ import com.hzc.common.utils.R;
 public class SkuInfoController {
     @Autowired
     private SkuInfoService skuInfoService;
+
+    @GetMapping("/{skuId}/price")
+    public BigDecimal getPrice(@PathVariable("skuId") Long skuId) {
+        SkuInfoEntity skuInfoEntity = skuInfoService.getById(skuId);
+
+        return skuInfoEntity.getPrice();
+    }
 
     /**
      * 列表

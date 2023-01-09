@@ -3,6 +3,8 @@ package com.hzc.mymall.cart.service;
 import com.hzc.mymall.cart.vo.Cart;
 import com.hzc.mymall.cart.vo.CartItem;
 
+import java.util.List;
+
 /**
  * <p>
  *
@@ -25,4 +27,6 @@ public interface CartService {
     void changeItemCount(Long skuId, Integer num);
 
     void deleteItem(Long skuId);
+
+    List<CartItem> getUserCartItems();
 }

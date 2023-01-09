@@ -63,8 +63,10 @@ public class Cart {
         // 1, 计算购物项总价
         if(items != null && !items.isEmpty()) {
             for (CartItem item : items) {
-                BigDecimal totalPrice = item.getTotalPrice();
-                amount = amount.add(totalPrice);
+                if(item.getCheck()) {
+                    BigDecimal totalPrice = item.getTotalPrice();
+                    amount = amount.add(totalPrice);
+                }
             }
         }
 

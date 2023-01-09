@@ -230,4 +230,24 @@ public class CartServiceImpl implements CartService {
         BoundHashOperations<String, Object, Object> cartOps = getCartOps();
         cartOps.delete(skuId.toString());
     }
+
+    @Override
+    public List<CartItem> getUserCartItems() {
+        UserInfoTo userInfoTo = CartInterceptor.threadLocal.get();
+        if(userInfoTo.getUserId() == null) {
+            return null;
+        }else {
+            List<CartItem> cartItems = getCartItems(CartConstant.CART_PREFIX + userInfoTo.getUserId());
+            List<CartItem> collect = cartItems.stream()
+                    .map(item -> {
+                        // 更新为最新的价格
+                        item.setPrice(productFeignService.getPrice(item.getSkuId()));
+                        return item;
+                    })
+                    .filter(cartItem -> cartItem.getCheck())
+                    .collect(Collectors.toList());
+
+            return collect;
+        }
+    }
 }

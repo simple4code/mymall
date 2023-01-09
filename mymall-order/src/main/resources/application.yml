@@ -5,7 +5,7 @@ spring:
   datasource:
     #MySQL配置
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.1.103:3307/gulimall_oms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.3.142:3307/gulimall_oms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: chan
   cloud:
@@ -13,6 +13,28 @@ spring:
       discovery:
         # nacos-server地址配置
         server-addr: 127.0.0.1:8848
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 192.168.3.142
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    # 开启发送端确认 - ConfirmCallback
+    publisher-confirms: true
+    # 开启发送端消息抵达队列确认 - ReturnCallback
+    publisher-returns: true
+    # 消息只要抵达队列，就会以异步方式优先回调 ReturnCallback
+    template:
+      mandatory: true
+    # 设置手动 ack
+    listener:
+      simple:
+        acknowledge-mode: manual
+  redis:
+    host: 192.168.3.142
+    port: 6379
 
 # 配置mp sql映射文件位置
 mybatis-plus:
