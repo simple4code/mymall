@@ -13,6 +13,11 @@ spring:
       discovery:
         # nacos-server地址配置
         server-addr: 127.0.0.1:8848
+  thymeleaf:
+    cache: false
+  redis:
+    host: 192.168.3.142
+    port: 6379
 
 # 配置mp sql映射文件位置
 mybatis-plus:

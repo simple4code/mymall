@@ -15,6 +15,7 @@ package com.hzc.common.exception;
  *      13：购物车
  *      14：物流
  *      15：用户
+ *      21：库存
  * </p>
  *
  * @author hzc
@@ -27,7 +28,8 @@ public enum BizCodeEnum {
     PRODUCT_UP_EXCEPTION(11000, "商品上架异常"),
     USER_EXIST_EXCEPTION(15001, "用户已存在"),
     PHONE_EXIST_EXCEPTION(15002, "手机号已存在"),
-    LOGINACCT_PASSWORD_INVALID_EXCEPTION(15003, "账号或者密码错误");
+    LOGINACCT_PASSWORD_INVALID_EXCEPTION(15003, "账号或者密码错误"),
+    NO_STOCK_EXCEPTION(21000, "商品库存不足");
 
     private Integer code;
     private String message;

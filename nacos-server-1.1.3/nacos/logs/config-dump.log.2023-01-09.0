@@ -1,0 +1,16 @@
+2023-01-09 12:02:05,906 INFO [dump-all-ok] mymall-coupon.properties+DEFAULT_GROUP, 1672220512270, length=44, md5=8fade44702b2848d2900e1b420c0426b
+
+2023-01-09 12:02:05,908 INFO [dump-all-ok] mymall-coupon.properties+dev, 1672221776189, length=47, md5=4eb99d7d9e091237bd772de55e33fa2f
+
+2023-01-09 12:02:05,908 INFO [dump-all-ok] mymall-coupon.properties+prod, 1672221943701, length=48, md5=97bbe9147b7e339068eda99c070fe04f
+
+2023-01-09 12:02:05,909 INFO [dump-all-ok] datasource.yml+dev, 1672222129508, length=301, md5=0c8862776f4f63b121a20f4381e7f50c
+
+2023-01-09 12:02:05,909 INFO [dump-all-ok] mybatis.yml+dev, 1672222159365, length=124, md5=d2ee63154db04f6c09d48292017dfcd6
+
+2023-01-09 12:02:05,909 INFO [dump-all-ok] other.yml+dev, 1672222212458, length=150, md5=6a1f0dbf7d1b283cf8e7456933941c98
+
+2023-01-09 12:02:05,909 INFO [dump-all-ok] mymall-gateway.yml+DEFAULT_GROUP, 1672233346306, length=55, md5=8b0a53484c36a7068c5e30f0f9f698fb
+
+2023-01-09 12:02:05,909 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1672315577023, length=189, md5=5b63f0848529e5fb17dd6032d9b4cc49
+

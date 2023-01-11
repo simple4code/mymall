@@ -68,6 +68,16 @@ spring:
           predicates:
             - Host=order.mymall.com
 
+        - id: mymall_member_route
+          uri: lb://mymall-member
+          predicates:
+            - Host=member.mymall.com
+
+        - id: mymall_coupon_route
+          uri: lb://mymall-coupon
+          predicates:
+            - Host=coupon.mymall.com
+
 server:
   port: 88
 

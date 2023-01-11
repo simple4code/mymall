@@ -15,6 +15,23 @@ spring:
         server-addr: 127.0.0.1:8848
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
+  rabbitmq:
+    host: 192.168.3.142
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    # 开启发送端确认 - ConfirmCallback
+    publisher-confirms: true
+    # 开启发送端消息抵达队列确认 - ReturnCallback
+    publisher-returns: true
+    # 消息只要抵达队列，就会以异步方式优先回调 ReturnCallback
+    template:
+      mandatory: true
+    # 设置手动 ack
+    listener:
+      simple:
+        acknowledge-mode: manual
 logging:
   level:
     com.hzc: debug
